@@ -7,5 +7,5 @@ az group create --name rg-testing --location eastus
 az deployment group create `
   --name kube-deploy `
   --resource-group rg-testing `
-  --template-file cluster.json `
-  --parameters @cluster-parameters.json
+  --template-file cluster\cluster.json `
+  --parameters @cluster\cluster-parameters.json
