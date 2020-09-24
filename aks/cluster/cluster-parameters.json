@@ -1,0 +1,24 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.1",
+  "parameters": {
+    "clusterName": {
+      "value": "website"
+    },
+    "dnsPrefix": {
+      "value": "aks01"
+    },
+    "linuxAdminUsername": {
+      "value": "ravindra"
+    },
+    "sshRSAPublicKey": {
+      "value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDlDOm603h3fRNNy1nOlkLyxoQcUcrKWUwJzuxELzyEZr7J1jPQMjbCtQd+QC0RamV1TsuYB9VVoftujOz1rRl+911P3L8ZcHlan+Iv7XQpxJWI7qmpWTToX7wTTxUfep9i5Sen7pAQN4hgkvh3h1ixrIdfNn3TzR6AfjqeZvILv2jT+8Xl6k8fmjjiV2LJ3KZ4Iim4BSl8w0s4gvXD0BT/bJaUTLVeoprnOhlG5F18F2R7S5TPIJskiiRytfGQtDPGxV1x149nytTCN4zGkrIn0KZCWXchURZ96FgO5dtY/59UJ15QatWtiQfbH8kMBuYmzVW0V6a9gDhPnPacPgk1 shruti gupta@DESKTOP-P3NMKL3"
+    },
+    "servicePrincipalClientId": {
+      "value": "eeae96f5-981b-404d-aaae-6fe27b0085d3"
+    },
+    "servicePrincipalClientSecret": {
+      "value": "nLn4~p656g27ujbiTknZZpzAMcfbq4GCxo"
+    }
+  }
+}
